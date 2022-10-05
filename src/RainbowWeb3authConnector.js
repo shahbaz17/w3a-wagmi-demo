@@ -26,9 +26,10 @@ export const rainbowWeb3AuthConnector = ({ chains }) => ({
 			chains: chains,
 			options: {
 				enableLogging: true,
-				clientId: "YOUR_CLIENT_ID", // Get your own client id from https://dashboard.web3auth.io
+				clientId:
+					"BBP_6GOu3EJGGws9yd8wY_xFT0jZIWmiLMpqrEMx36jlM61K9XRnNLnnvEtGpF-RhXJDGMJjL-I-wTi13RcBBOo", // Get your own client id from https://dashboard.web3auth.io
 				network: "testnet",
-				chainId: "0x1",
+				chainId: "0x3",
 			},
 		});
 		connector.web3AuthInstance.addPlugin(torusPlugin);
